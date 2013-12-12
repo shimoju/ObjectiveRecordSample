@@ -24,10 +24,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
-    for(Person *person in [Person all]) {
-        NSLog(@"Person name = %@, age = %@", person.name, person.age);
-    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,8 +39,6 @@
     [person save];
 
     [self performSegueWithIdentifier:@"UnwindToListViewSegue" sender:self];
-
-    NSLog(@"Person name = %@, age = %@", person.name, person.age);
 }
 
 @end
