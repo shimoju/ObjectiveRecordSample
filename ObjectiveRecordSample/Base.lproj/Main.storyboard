@@ -78,7 +78,13 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="3em-PO-2X5"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="3em-PO-2X5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ziq-5b-R0G">
+                            <connections>
+                                <segue destination="ydJ-DW-T6C" kind="modal" id="fTu-TP-r9o"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JbH-2k-zE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
