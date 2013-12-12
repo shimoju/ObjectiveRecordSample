@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - ObjectiveRecordSample-->
+        <!--View Controller - Add-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -43,7 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ObjectiveRecordSample" id="igu-Ei-l8C">
+                    <navigationItem key="navigationItem" title="Add" id="igu-Ei-l8C">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="2WN-79-Mf6">
                             <connections>
                                 <action selector="didSaveButtonTap:" destination="vXZ-lx-hvc" id="xQ9-vr-JUa"/>
@@ -59,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="1287" y="693"/>
         </scene>
-        <!--Table View Controller - Root View Controller-->
+        <!--Table View Controller - ObjectiveRecordSample-->
         <scene sceneID="X9o-Oc-IaW">
             <objects>
                 <tableViewController id="cwX-9K-bcL" sceneMemberID="viewController">
@@ -78,7 +78,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="3em-PO-2X5">
+                    <navigationItem key="navigationItem" title="ObjectiveRecordSample" id="3em-PO-2X5">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ziq-5b-R0G">
                             <connections>
                                 <segue destination="ydJ-DW-T6C" kind="modal" id="fTu-TP-r9o"/>
