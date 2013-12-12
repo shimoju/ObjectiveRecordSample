@@ -40,6 +40,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)unwindToListView:(UIStoryboardSegue *)segue {
+    [self.tableView reloadData];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
