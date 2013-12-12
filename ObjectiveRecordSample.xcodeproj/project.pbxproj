@@ -22,6 +22,7 @@
 		454CAFC21859B4E000B9450E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454CAFA41859B4E000B9450E /* UIKit.framework */; };
 		454CAFCA1859B4E000B9450E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454CAFC81859B4E000B9450E /* InfoPlist.strings */; };
 		454CAFCC1859B4E000B9450E /* ObjectiveRecordSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CAFCB1859B4E000B9450E /* ObjectiveRecordSampleTests.m */; };
+		457923D71859B97000BA5DF2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 457923D61859B97000BA5DF2 /* Person.m */; };
 		A6E0BD9FC4344EEF80DAAFC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17908725E4F64EF8A8795CA4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		454CAFC71859B4E000B9450E /* ObjectiveRecordSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveRecordSampleTests-Info.plist"; sourceTree = "<group>"; };
 		454CAFC91859B4E000B9450E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454CAFCB1859B4E000B9450E /* ObjectiveRecordSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveRecordSampleTests.m; sourceTree = "<group>"; };
+		457923D51859B97000BA5DF2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Models/Person.h; sourceTree = "<group>"; };
+		457923D61859B97000BA5DF2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Models/Person.m; sourceTree = "<group>"; };
 		5FD88919CEFE4C66AE676985 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +123,7 @@
 		454CAFA61859B4E000B9450E /* ObjectiveRecordSample */ = {
 			isa = PBXGroup;
 			children = (
+				457923D81859B98B00BA5DF2 /* Models */,
 				453DC27C1859B6D30039301D /* ObjectiveRecordSample.xcdatamodeld */,
 				454CAFAF1859B4E000B9450E /* AppDelegate.h */,
 				454CAFB01859B4E000B9450E /* AppDelegate.m */,
@@ -159,6 +163,15 @@
 				454CAFC81859B4E000B9450E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457923D81859B98B00BA5DF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				457923D51859B97000BA5DF2 /* Person.h */,
+				457923D61859B97000BA5DF2 /* Person.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +308,7 @@
 			files = (
 				454CAFB71859B4E000B9450E /* ViewController.m in Sources */,
 				454CAFB11859B4E000B9450E /* AppDelegate.m in Sources */,
+				457923D71859B97000BA5DF2 /* Person.m in Sources */,
 				453DC27E1859B6D30039301D /* ObjectiveRecordSample.xcdatamodeld in Sources */,
 				454CAFAD1859B4E000B9450E /* main.m in Sources */,
 			);
