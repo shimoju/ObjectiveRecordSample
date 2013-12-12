@@ -44,6 +44,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add" id="igu-Ei-l8C">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="k26-0L-0Sv">
+                            <connections>
+                                <segue destination="ec6-Os-mBu" kind="unwind" identifier="UnwindToListViewSegue" unwindAction="unwindToListView:" id="x5f-Uv-iY2"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="2WN-79-Mf6">
                             <connections>
                                 <action selector="didSaveButtonTap:" destination="vXZ-lx-hvc" id="xQ9-vr-JUa"/>
@@ -56,6 +61,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <exit id="ec6-Os-mBu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1287" y="693"/>
         </scene>

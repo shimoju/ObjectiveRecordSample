@@ -42,6 +42,8 @@
     person.age = @([_ageField.text integerValue]);
     [person save];
 
+    [self performSegueWithIdentifier:@"UnwindToListViewSegue" sender:self];
+
     NSLog(@"Person name = %@, age = %@", person.name, person.age);
 }
 
