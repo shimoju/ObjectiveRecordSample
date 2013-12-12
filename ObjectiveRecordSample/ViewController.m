@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    for(Person *person in [Person all]) {
+        NSLog(@"Person name = %@, age = %@", person.name, person.age);
+    }
 }
 
 - (void)didReceiveMemoryWarning
