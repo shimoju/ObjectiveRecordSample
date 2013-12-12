@@ -44,8 +44,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="ObjectiveRecordSample" id="igu-Ei-l8C">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="2WN-79-Mf6"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="2WN-79-Mf6">
+                            <connections>
+                                <action selector="didSaveButtonTap:" destination="vXZ-lx-hvc" id="xQ9-vr-JUa"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ageField" destination="Ynd-Xb-qhJ" id="JOs-eX-XgF"/>
+                        <outlet property="nameField" destination="7nm-Fw-8GF" id="phW-yk-xfV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

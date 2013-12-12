@@ -11,6 +11,11 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *ageField;
+
+- (IBAction)didSaveButtonTap:(id)sender;
+
 @end
 
 @implementation ViewController
@@ -29,6 +34,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)didSaveButtonTap:(id)sender {
 }
 
 @end
