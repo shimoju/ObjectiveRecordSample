@@ -23,6 +23,7 @@
 		454CAFCA1859B4E000B9450E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454CAFC81859B4E000B9450E /* InfoPlist.strings */; };
 		454CAFCC1859B4E000B9450E /* ObjectiveRecordSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CAFCB1859B4E000B9450E /* ObjectiveRecordSampleTests.m */; };
 		457923D71859B97000BA5DF2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 457923D61859B97000BA5DF2 /* Person.m */; };
+		45A1F7C8185A2F0B0074DB51 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A1F7C7185A2F0B0074DB51 /* ListViewController.m */; };
 		A6E0BD9FC4344EEF80DAAFC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17908725E4F64EF8A8795CA4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		454CAFCB1859B4E000B9450E /* ObjectiveRecordSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveRecordSampleTests.m; sourceTree = "<group>"; };
 		457923D51859B97000BA5DF2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Models/Person.h; sourceTree = "<group>"; };
 		457923D61859B97000BA5DF2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Models/Person.m; sourceTree = "<group>"; };
+		45A1F7C6185A2F0B0074DB51 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		45A1F7C7185A2F0B0074DB51 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		5FD88919CEFE4C66AE676985 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +131,8 @@
 				454CAFAF1859B4E000B9450E /* AppDelegate.h */,
 				454CAFB01859B4E000B9450E /* AppDelegate.m */,
 				454CAFB21859B4E000B9450E /* Main.storyboard */,
+				45A1F7C6185A2F0B0074DB51 /* ListViewController.h */,
+				45A1F7C7185A2F0B0074DB51 /* ListViewController.m */,
 				454CAFB51859B4E000B9450E /* ViewController.h */,
 				454CAFB61859B4E000B9450E /* ViewController.m */,
 				454CAFB81859B4E000B9450E /* Images.xcassets */,
@@ -308,6 +313,7 @@
 			files = (
 				454CAFB71859B4E000B9450E /* ViewController.m in Sources */,
 				454CAFB11859B4E000B9450E /* AppDelegate.m in Sources */,
+				45A1F7C8185A2F0B0074DB51 /* ListViewController.m in Sources */,
 				457923D71859B97000BA5DF2 /* Person.m in Sources */,
 				453DC27E1859B6D30039301D /* ObjectiveRecordSample.xcdatamodeld in Sources */,
 				454CAFAD1859B4E000B9450E /* main.m in Sources */,
