@@ -37,6 +37,12 @@
 }
 
 - (IBAction)didSaveButtonTap:(id)sender {
+    Person *person = [Person create];
+    person.name = _nameField.text;
+    person.age = @([_ageField.text integerValue]);
+    [person save];
+
+    NSLog(@"Person name = %@, age = %@", person.name, person.age);
 }
 
 @end
