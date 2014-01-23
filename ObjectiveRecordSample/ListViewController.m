@@ -66,8 +66,9 @@
     
     // Configure the cell...
     NSArray *people = [Person all];
-    cell.textLabel.text = [people[indexPath.row] valueForKey:@"name"];
-    cell.detailTextLabel.text = [[people[indexPath.row] valueForKey:@"age"] stringValue];
+    Person *person = people[indexPath.row];
+    cell.textLabel.text = person.name;
+    cell.detailTextLabel.text = [person.age stringValue];
 
     return cell;
 }
